@@ -1,0 +1,35 @@
+{
+    "name": "black-vampire",
+    "displayName": "black vampire",
+    "description": "esta extension es un tema inspirado en el clasico tema de dracula, con mejoras en todos sus componentes",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "black vampire",
+                "uiTheme": "vs-dark",
+                "path": "./themes/black vampire-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icons/black-vampire.png",
+    "author": {
+        "name": "Armando Romero",
+        "email": "armando.romero1153@gmail.com",
+        "url": "https://www.youtube.com/channel/UC9Ff1ypUKX3v6W1tIuGexjg"
+    },
+    "repository": {
+        "url": "https://github.com/armando10rafael10/theme-black-vampire.git",
+        "type": "git"
+    },
+    "publisher": "black-purpleVam",
+    "dependencies": {
+        "vsce": "^2.5.1"
+    }
+}
